@@ -1,0 +1,522 @@
+{
+  "format": 1,
+  "restore": {
+    "X:\\rn-reanimated\\packages\\react-native-reanimated\\windows\\Reanimated\\Reanimated.vcxproj": {}
+  },
+  "projects": {
+    "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Common\\Common.vcxproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Common\\Common.vcxproj",
+        "projectName": "Common",
+        "projectPath": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Common\\Common.vcxproj",
+        "packagesPath": "C:\\Users\\mcota.REDMOND\\.nuget\\packages\\",
+        "outputPath": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mcota.REDMOND\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "native"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "native": {
+            "projectReferences": {}
+          }
+        },
+        "restoreLockProperties": {
+          "restorePackagesWithLockFile": "true"
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "native": {
+          "dependencies": {
+            "Microsoft.Windows.CppWinRT": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.230706.1, )"
+            },
+            "boost": {
+              "target": "Package",
+              "version": "[1.76.0, )"
+            }
+          },
+          "imports": [
+            "uap10.0.17763",
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Fmt\\Fmt.vcxproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Fmt\\Fmt.vcxproj",
+        "projectName": "Fmt",
+        "projectPath": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Fmt\\Fmt.vcxproj",
+        "packagesPath": "C:\\Users\\mcota.REDMOND\\.nuget\\packages\\",
+        "outputPath": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Fmt\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mcota.REDMOND\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "native"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "native": {
+            "projectReferences": {}
+          }
+        },
+        "restoreLockProperties": {
+          "restorePackagesWithLockFile": "true"
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "native": {
+          "imports": [
+            "uap10.0.17763",
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Folly\\Folly.vcxproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Folly\\Folly.vcxproj",
+        "projectName": "Folly",
+        "projectPath": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Folly\\Folly.vcxproj",
+        "packagesPath": "C:\\Users\\mcota.REDMOND\\.nuget\\packages\\",
+        "outputPath": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Folly\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mcota.REDMOND\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "native"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "native": {
+            "projectReferences": {
+              "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Fmt\\Fmt.vcxproj": {
+                "projectPath": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Fmt\\Fmt.vcxproj"
+              }
+            }
+          }
+        },
+        "restoreLockProperties": {
+          "restorePackagesWithLockFile": "true"
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "native": {
+          "dependencies": {
+            "boost": {
+              "target": "Package",
+              "version": "[1.76.0, )"
+            }
+          },
+          "imports": [
+            "uap10.0.17763",
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Microsoft.ReactNative\\Microsoft.ReactNative.vcxproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Microsoft.ReactNative\\Microsoft.ReactNative.vcxproj",
+        "projectName": "Microsoft.ReactNative",
+        "projectPath": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Microsoft.ReactNative\\Microsoft.ReactNative.vcxproj",
+        "packagesPath": "C:\\Users\\mcota.REDMOND\\.nuget\\packages\\",
+        "outputPath": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Microsoft.ReactNative\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mcota.REDMOND\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "native"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "native": {
+            "projectReferences": {
+              "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Common\\Common.vcxproj": {
+                "projectPath": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Common\\Common.vcxproj"
+              },
+              "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Folly\\Folly.vcxproj": {
+                "projectPath": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Folly\\Folly.vcxproj"
+              },
+              "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\ReactCommon\\ReactCommon.vcxproj": {
+                "projectPath": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\ReactCommon\\ReactCommon.vcxproj"
+              }
+            }
+          }
+        },
+        "restoreLockProperties": {
+          "restorePackagesWithLockFile": "true"
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "native": {
+          "dependencies": {
+            "Microsoft.JavaScript.Hermes": {
+              "target": "Package",
+              "version": "[0.1.21, )"
+            },
+            "Microsoft.UI.Xaml": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Microsoft.Windows.CppWinRT": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.230706.1, )"
+            },
+            "boost": {
+              "target": "Package",
+              "version": "[1.76.0, )"
+            }
+          },
+          "imports": [
+            "uap10.0.17763",
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\ReactCommon\\ReactCommon.vcxproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\ReactCommon\\ReactCommon.vcxproj",
+        "projectName": "ReactCommon",
+        "projectPath": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\ReactCommon\\ReactCommon.vcxproj",
+        "packagesPath": "C:\\Users\\mcota.REDMOND\\.nuget\\packages\\",
+        "outputPath": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\ReactCommon\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mcota.REDMOND\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "native"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "native": {
+            "projectReferences": {
+              "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Folly\\Folly.vcxproj": {
+                "projectPath": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Folly\\Folly.vcxproj"
+              }
+            }
+          }
+        },
+        "restoreLockProperties": {
+          "restorePackagesWithLockFile": "true"
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "native": {
+          "dependencies": {
+            "boost": {
+              "target": "Package",
+              "version": "[1.76.0, )"
+            }
+          },
+          "imports": [
+            "uap10.0.17763",
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "X:\\rn-reanimated\\packages\\react-native-reanimated\\windows\\Reanimated\\Reanimated.vcxproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\rn-reanimated\\packages\\react-native-reanimated\\windows\\Reanimated\\Reanimated.vcxproj",
+        "projectName": "Reanimated",
+        "projectPath": "X:\\rn-reanimated\\packages\\react-native-reanimated\\windows\\Reanimated\\Reanimated.vcxproj",
+        "packagesPath": "C:\\Users\\mcota.REDMOND\\.nuget\\packages\\",
+        "outputPath": "X:\\rn-reanimated\\packages\\react-native-reanimated\\windows\\Reanimated\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "X:\\rn-reanimated\\packages\\react-native-reanimated\\windows\\NuGet.Config",
+          "C:\\Users\\mcota.REDMOND\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "native"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ms/react-native/_packaging/react-native-public/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "native": {
+            "projectReferences": {
+              "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Microsoft.ReactNative\\Microsoft.ReactNative.vcxproj": {
+                "projectPath": "X:\\rn-reanimated\\packages\\react-native-reanimated\\node_modules\\react-native-windows\\Microsoft.ReactNative\\Microsoft.ReactNative.vcxproj"
+              }
+            }
+          }
+        },
+        "restoreLockProperties": {
+          "restorePackagesWithLockFile": "true"
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "native": {
+          "dependencies": {
+            "Microsoft.UI.Xaml": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Microsoft.Windows.CppWinRT": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.230706.1, )"
+            }
+          },
+          "imports": [
+            "uap10.0.17763",
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
