@@ -34,7 +34,8 @@
     "circular-dependency-check": "yarn madge --extensions js,ts,tsx --circular src lib",
     "use-strict-check": "node ./scripts/validate-use-strict.js",
     "prepack": "cp ../../README.md ./README.md",
-    "postpack": "rm ./README.md"
+    "postpack": "rm ./README.md",
+    "windows": "react-native run-windows"
   },
   "main": "lib/module/index",
   "module": "lib/module/index",
@@ -144,14 +145,16 @@
     "madge": "^5.0.1",
     "prettier": "2.8.8",
     "react": "18.2.0",
-    "react-native": "0.74.0",
+    "react-native": "0.74.3",
     "react-native-builder-bob": "^0.18.3",
     "react-native-gesture-handler": "^2.16.2",
     "react-native-web": "0.19.11",
+    "react-native-windows": "0.74.11",
     "react-test-renderer": "18.2.0",
     "shelljs": "^0.8.5",
     "ts-prune": "^0.10.3",
-    "typescript": "~5.3.0"
+    "typescript": "~5.3.0",
+    "metro-config": "^0.80.9"
   },
   "react-native-builder-bob": {
     "source": "src",
