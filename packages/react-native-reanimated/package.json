@@ -50,6 +50,7 @@
     "android/src/main/java/",
     "android/build.gradle",
     "android/",
+    "windows/",
     "apple/",
     "RNReanimated.podspec",
     "scripts/reanimated_utils.rb",
